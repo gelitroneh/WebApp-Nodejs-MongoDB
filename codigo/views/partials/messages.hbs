@@ -1,0 +1,27 @@
+{{#if succes_msg}}
+       <div class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>La nota ha sido creada</strong> 
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{{/if}}
+
+{{#if error_msg}}
+       <div class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>La nota ha sido eliminada</strong> 
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{{/if}}
+
+{{#if register_msg}}
+       <div class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Registro completado</strong> 
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{{/if}}
+
+{{#if invalid_msg}}
+       <div class="alert alert-danger alert-dismissible fade show" role="alert">
+  <strong>El email ya esta registrado</strong> 
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{{/if}}
